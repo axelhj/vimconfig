@@ -1,0 +1,12 @@
+*
+!/*.vim
+!/vimrc
+!/.gitignore
+!/state
+!/state/backup
+!/state/swap
+!/state/undo
+/state/*/*
+!/state/swap/.keep
+!/state/backup/.keep
+!/state/undo/.keep
