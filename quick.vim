@@ -18,6 +18,9 @@ vnoremap <Leader>fv y:silent grep! <C-r>"<Cr>:copen<Cr>
 "  desc = "Search in files with ripgrep in visual"
 "})
 
+command! -nargs=1 Fd call setqflist(map(systemlist('fd --full-path ' . shellescape(<q-args>)), '{"filename": v:val}')) | copen
+nnoremap <Leader><Leader> :Fd<Space>
+
 nnoremap <Leader>cx mZ<Cmd>silent cclose<Cr>`Z
 "vim.keymap.set("n", "<Leader>cx", function()
 "  if vim.bo.buftype == "quickfix" then
