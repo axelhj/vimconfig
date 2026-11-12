@@ -52,3 +52,4 @@ source <sfile>:h/term.vim
 source <sfile>:h/termlnc.vim
 source <sfile>:h/ui.vim
 source <sfile>:h/gui.vim
+source <sfile>:h/rooter.vim
