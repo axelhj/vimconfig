@@ -1,1 +1,1 @@
-set guifont=IntoneMono\ NFM:h7
+set guifont=IntoneMono\ NFM:h9

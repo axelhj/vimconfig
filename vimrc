@@ -22,6 +22,15 @@ set scrolloff=2
 set splitright
 set splitbelow
 set timeoutlen=1700
+set noignorecase
+set nosmartcase
+set updatetime=75
+set nowrapscan
+set textwidth=0
+set wrapmargin=0
+set wrap
+set linebreak
+set title
 nnoremap <C-h> <C-w><C-h>
 nnoremap <C-l> <C-w><C-l>
 nnoremap <C-j> <C-w><C-j>
@@ -53,3 +62,4 @@ source <sfile>:h/termlnc.vim
 source <sfile>:h/ui.vim
 source <sfile>:h/gui.vim
 source <sfile>:h/rooter.vim
+source <sfile>:h/quick.vim
