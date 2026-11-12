@@ -14,6 +14,8 @@ colorscheme lunaperche
 "autocmd VimEnter * {
 "  enew
 "}
+set shortmess+=I
+nmap \ <Cmd>Ex<Cr>
 execute 'nnoremap <Leader>0 <Cmd>source' fnameescape(s:path . '/vimrc') '<Cr>'
 set tabstop=2
 set shiftwidth=2
