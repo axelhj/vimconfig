@@ -11,3 +11,4 @@ tnoremap <C-x> <C-\><C-n>
 "autocmd TerminalWinOpen * call timer_start(0, feedkeys("\<C-\>\<C-n>", 'n'))
 "autocmd TerminalWinOpen * call timer_start(200, feedkeys("\<C-w>w", 'n'))
 autocmd WinEnter * if &buftype ==# 'terminal' | call timer_start(200, {-> feedkeys("\<C-\>\<C-n>G", "n")}) | endif
+command! -nargs=* Fult terminal ++noclose ++curwin
