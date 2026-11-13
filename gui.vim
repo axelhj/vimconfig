@@ -1,5 +1,6 @@
-" Nice and legible font
+" Nice and legible font and cursor
 set guifont=IntoneMono\ NFM:h9
+set guicursor+=a:blinkon0
 
 " Hide gui stuff
 set guioptions-=m
